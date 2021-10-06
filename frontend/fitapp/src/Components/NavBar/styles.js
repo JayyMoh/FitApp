@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core'
 export default makeStyles((theme) => ({
     AppBar: {
         backgroundColor: 'black',
-        margin: ''
     },
     Link: {
         color: 'red',
@@ -19,6 +18,7 @@ export default makeStyles((theme) => ({
         listStyleType: 'none',
         display: 'flex',
         justifyContent: 'center',
+        textAlign: 'center'
     },
     navLi: {
         float: 'left',
